@@ -27,7 +27,7 @@ public class Tesis extends Escrito{
     public String getInterpretacion(){return interpretacion;}
 
     public int palabrasTotales(int paginas){
-        return (int)paginas*5;
+        return (int)paginas*100;
     }
     
     public String interpretacion(){
@@ -35,6 +35,6 @@ public class Tesis extends Escrito{
     }
     public String toString(){
         return super.getOrigen()+"/n"+super.getTitulo()+"/n"+super.getAutor()+"/n"+
-        super.getPaginas()+"/n"+getAutor()+"/n"+getIdea()+"/n"+getArgumentos()+"/n"+getConclusion()+"/n"+getReferencias();
+        super.getPaginas()+"/n"+getIdea()+"/n"+getArgumentos()+"/n"+getConclusion()+"/n"+getReferencias();
     }
 }

@@ -20,7 +20,7 @@ public class Periodico extends Escrito{
     public String getInterpretacion(){return interpretacion;}
 
     public int palabrasTotales(int paginas){
-        return (int)paginas*10;
+        return (int)paginas*60;
     }
     
     public String interpretacion(){
@@ -28,6 +28,6 @@ public class Periodico extends Escrito{
     }
     public String toString(){
         return super.getOrigen()+"/n"+super.getTitulo()+"/n"+super.getAutor()+"/n"+
-        super.getPaginas()+"/n"+getAutor()+"/n"+getFecha()+"/n"+getPrimicia();
+        super.getPaginas()+"/n"+getFecha()+"/n"+getPrimicia();
     }
 }

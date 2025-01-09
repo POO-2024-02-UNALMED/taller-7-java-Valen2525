@@ -24,7 +24,7 @@ public class Libro extends Escrito{
     public String getInterpretacion(){return interpretacion;}
 
     public int palabrasTotales(int paginas){
-        return (int)paginas*2;
+        return (int)paginas*1198;
     }
 
     public String interpretacion(){
@@ -32,6 +32,6 @@ public class Libro extends Escrito{
     }
     public String toString(){
         return super.getOrigen()+"/n"+super.getTitulo()+"/n"+super.getAutor()+"/n"+
-        super.getPaginas()+"/n"+getAutor()+"/n"+getEditorial()+"/n"+getEdicion();
+        super.getPaginas()+"/n"+getCo_autor()+"/n"+getEditorial()+"/n"+getEdicion();
     }
 }
