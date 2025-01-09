@@ -33,5 +33,6 @@ public class Alfabeto extends Pictograma{
             }
         }
         return cadena;
+        
     }
 }

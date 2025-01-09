@@ -17,7 +17,7 @@ public class Tesis extends Escrito{
 
     public String getIdea(){return idea;}
     public void setIdea(String i){this.idea = i;}
-    public static String [] getArgumentos(){return argumentos;}
+    public static int getArgumentos(){return argumentos.length;}
     public static void setArgumentos(String [] i){Tesis.argumentos = i;}
     public String getConclusion(){return conclusion;}
     public void setConclusion(String i){this.conclusion = i;}
