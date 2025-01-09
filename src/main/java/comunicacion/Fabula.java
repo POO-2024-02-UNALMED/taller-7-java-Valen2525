@@ -4,9 +4,9 @@ public class Fabula extends Escrito{
     String ensenanza;
     String interpretacion;
 
-    public Fabula(String origen, String titulo, String autor, int paginas, String ensenanzas, String interpretacion){
+    public Fabula(String origen, String titulo, String autor, int paginas, String ensenanza, String interpretacion){
         super(origen, titulo, autor, paginas);
-        this.ensenanza = ensenanzas;
+        this.ensenanza = ensenanza;
         this.interpretacion = interpretacion;
     }
     public void setIntepretacion(String inter){this.interpretacion=inter;}
@@ -15,7 +15,7 @@ public class Fabula extends Escrito{
     public String getEnsenanza(){return ensenanza;}
 
     public int palabrasTotales(int paginas){
-        return (int)paginas*1;
+        return (int)paginas*2;
     }
 
     public String interpretacion(){
