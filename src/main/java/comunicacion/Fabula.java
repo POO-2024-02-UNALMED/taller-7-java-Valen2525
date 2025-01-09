@@ -22,8 +22,8 @@ public class Fabula extends Escrito{
         return interpretacion;
     }
     public String toString(){
-        return super.getOrigen()+"/n"+super.getTitulo()+"/n"+super.getAutor()+"/n"+
-        super.getPaginas()+"/n"+this.getEnsenanza();
+        return super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+
+        super.getPaginas()+"\n"+getEnsenanza();
     }
 
 }
