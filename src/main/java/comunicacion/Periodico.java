@@ -20,14 +20,14 @@ public class Periodico extends Escrito{
     public String getInterpretacion(){return interpretacion;}
 
     public int palabrasTotales(int paginas){
-        return (int)paginas*60;
+        return (int)paginas*10*getPaginas();
     }
     
     public String interpretacion(){
         return interpretacion;
     }
     public String toString(){
-        return super.getOrigen()+"/n"+super.getTitulo()+"/n"+super.getAutor()+"/n"+
-        super.getPaginas()+"/n"+getFecha()+"/n"+getPrimicia();
+        return super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+
+        super.getPaginas()+"\n"+getFecha()+"\n"+getPrimicia();
     }
 }
