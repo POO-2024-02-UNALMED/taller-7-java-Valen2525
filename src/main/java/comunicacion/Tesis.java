@@ -17,7 +17,7 @@ public class Tesis extends Escrito{
 
     public String getIdea(){return idea;}
     public void setIdea(String i){this.idea = i;}
-    public static int getArgumentos(){return argumentos.length;}
+    public static String [] getArgumentos(){return argumentos;}
     public static void setArgumentos(String [] i){Tesis.argumentos = i;}
     public String getConclusion(){return conclusion;}
     public void setConclusion(String i){this.conclusion = i;}
@@ -35,6 +35,6 @@ public class Tesis extends Escrito{
     }
     public String toString(){
         return super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+
-        super.getPaginas()+"\n"+getIdea()+"\n"+getArgumentos()+"\n"+getConclusion()+"\n"+getReferencias();
+        super.getPaginas()+"\n"+getIdea()+"\n"+getArgumentos().length+"\n"+getConclusion()+"\n"+getReferencias();
     }
 }
