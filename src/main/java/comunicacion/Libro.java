@@ -14,8 +14,8 @@ public class Libro extends Escrito{
         this.interpretacion = interpretacion;
     }
 
-    public void setAutor(String aut){this.co_autor=aut;}
-    public String getAutor(){return co_autor;}
+    public void setCo_autor(String aut){this.co_autor=aut;}
+    public String getCo_autor(){return co_autor;}
     public void setEditorial(String aut){this.editorial=aut;}
     public String getEditorial(){return editorial;}
     public void setEdicion(String aut){this.edicion=aut;}
